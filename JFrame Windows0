@@ -3,8 +3,8 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
 import javax.swing.event.*;
-public class Trip extends JFrame 
-   {
+
+public class Trip extends JFrame {
       //Variables
       private JPanel continents0; //done
       private JPanel months0; //done
@@ -30,8 +30,7 @@ public class Trip extends JFrame
       //close button
       //pack and set it visible
       
-      public Trip () 
-      {
+      public Trip () {
          //Set the title
          setTitle("2020 Trip");
          
@@ -64,6 +63,7 @@ public class Trip extends JFrame
          pack();
          setVisible(true);
       }
+
      //BuildContinents panel
      private void Buildcontinents ()
       {  
@@ -80,8 +80,7 @@ public class Trip extends JFrame
       }
       
       //buildMonths panel
-      private void Buildmonths()    
-         {
+      private void Buildmonths(){
             //Create a panel to add the list
             months0 = new JPanel();
             
@@ -103,8 +102,7 @@ public class Trip extends JFrame
           }
           
          //Buildselected
-         private void Buildselected()
-            {
+         private void Buildselected(){
                  results = new JPanel();
                  
                  //Create a label
